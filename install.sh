@@ -18,7 +18,7 @@ if ! grep -qi "arch" /etc/os-release; then
     echo "Some commands may not work on other distributions"
 fi
 
-packages = (
+packages=(
   "bc"
   "python3"
   "sysstat"
